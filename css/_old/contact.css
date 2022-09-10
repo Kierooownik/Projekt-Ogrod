@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+*{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+	body{
+		background-color: #ffff;
+		color: #326a34;
+	/*background-image: url("../img/walkway-bg.jpg")*/
+}
+/*Panel nawigacyjny~~*/
+nav{
+	clear: both;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 5px;
+	font-weight: 600;
+}
+#panel-line{
+	background-color: black;
+	height: 2px;
+	border: none;
+}
+#logo-top{
+	float: left;
+	/*left: 30px;*/
+	padding: 5px 0px;
+	width: 6em;
+	height: 6em;
+}
+
+#panel-bar{
+	float: right;
+	
+}
+.page{
+	color: #326a34;
+	text-decoration: none;
+}
+.panel{
+	display: inline;
+	list-style-type: square;
+	color: #326a34;
+	padding: 0.25em .5em;
+	margin: 0 0.5em;
+	text-underline-offset: 0.25em;
+	transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.page:hover{
+	color: #fff;
+	box-shadow: inset 200px 0 0 0 #326a34;
+	padding: 0.25em 0em;
+	font-weight: 600;
+}
+/*~~Panel nawigacyjny*/
+h1{
+	margin: 30px 75px;
+	/*background-color: rgb(255, 255, 255, 0.35);*/
+	color: #326a34;
+	/*backdrop-filter: blur;*/
+}
+#foto-bg{
+	margin: 20px auto;
+}
+/*Formularz interaktywny~~*/
+form{
+	margin-left: auto;
+	margin-right: auto;
+	/*width: 965px;
+	height: 450px;*/
+	padding: 20px;
+	border-radius: 10px;
+	background-clip: padding-box;
+	overflow: hidden;
+}
+textarea{
+	background: rgba(50,106,52,0.4);
+	width: 75%;
+	height: 110px;
+	border: none;
+	border-radius: 10px;
+	background-clip: padding-box;
+	display: block;
+	font-size: 18px;
+	color: #fff;
+	padding: 0px 20px;
+	margin: 20px auto;
+	overflow: hidden;
+	text-align: left;
+}
+select{
+	width: 78.5%;
+	height: 48px;
+	line-height: 1.5;
+	font-size: 1.2em;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	display: block;
+	background: transparent;
+	background-color: rgba(50,106,52,0.4);
+	margin: 20px auto;
+	font-size: 18px;
+	apperance: none;
+}
+.nameinput, .emailinput {
+	width: 75%;
+	height: 48px;
+	border: none;
+	border-radius: 10px;
+	background-color: rgba(50,106,52,0.4);
+	background-clip: padding-box;
+	display: block;
+	font-size: 18px;
+	color: #fff;
+	padding: 0px 20px;
+	margin: 20px auto;
+	text-align: left;
+}
+/*~~Formularz interaktywny*/
+	
+.wpcf{
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+#dane{
+		border-right-style: solid;
+		border-right-color: #326a34;
+		
+}
+#formularz{
+		grid-column: span 2;
+}
+
+#social{
+		margin: 20px;
+		font-weight: 600;
+}
+.sm{
+	padding: 10px;
+	width: 3em;
+	height: 3em;
+}
+
+	

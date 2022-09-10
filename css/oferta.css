@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #326a34;
+}
+/*Panel nawigacyjny ~~*/
+header{
+	margin: 0 -8px;
+	background-color: #fff;
+	z-index: 0;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+nav{
+	background-color: rgba(50,106,52,0.05);
+	/*border-bottom-color: #326a34;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;*/
+	padding: 10px 0;
+	margin-top: -16px;
+}
+.panel-logo{
+	width: 6em;
+	height: 6em;
+	padding: 1em;
+	border-radius: 4em;
+}
+#panel-bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 10px auto;
+}
+panel{
+	padding: 0;
+	margin: 0 auto;;
+}
+.panel-logo:hover{
+/*	padding: 1em;
+	border-radius: 4em;*/
+	background-color: rgba(50,106,52,0.1);
+}
+#active{
+	background-color: rgba(50,106,52,0.75);
+}
+/*~~Panel nawigacyjny*/
+/*Nagłówki strony głównej~~*/
+h1{
+	font-size: 4.5em;
+	padding-top: 1.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+h2{
+	font-size: 2.5em;
+	text-align: center;
+}
+span{
+	font-style: italic;
+}
+/*~~Nagłówki strony głównej*/
+
+/*Zawartość~~*/
+
+
+/*~~Zawartość*/
+
+/*Stopka~~*/
+footer{
+	background-color: #734854;
+	color: #fff;
+	margin: 0px -8px -16px -8px;
+	
+}
+.stopka{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+.stopka > *{
+	padding: 10px;
+	color: #fff;
+	
+	
+}
+#autor{
+	font-size: 0.6em;
+	color: #fff;
+	text-align: center;
+	padding: 0.3em;
+	
+}
+em{
+	color: #fff;
+}
+strong{
+	color: #fff;
+	font-size: 1.2rem;
+}
+ul{
+	padding: 0 0 10px 0;
+	margin: 0;
+	align-self: center;
+}
+li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}	
+a:hover{
+	font-weight: 700;
+	text-decoration: underline;
+	underline-offset: 0.2rem;
+}
+/*~~Stopka*/

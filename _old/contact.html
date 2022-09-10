@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<title>Projekt Zielony Ogród</title>
+		<meta charset="utf-8">
+		<link href="css/contact.css" type="text/css" rel="stylesheet" />
+		<link rel="icon" href="img/logo.png"/>
+		<meta name="description" content="Projekty ogrodów, tarasów i balkonów">
+		<meta name="author" content="Kiero">
+		
+	</head>
+	<body>
+		<nav>
+			<img id="logo-top" src="img/logo.png">
+			<ul id="panel-bar">
+			<li class="panel"><a class="page" href="main.html">Strona główna </a></li>
+			<li class="panel"><a class="page" href="inspire.html">Inspiracje </a></li>
+			<li class="panel"><a class="page" href="projects.html">Projekty ogrodu </a></li>
+			<li class="panel"><a class="page" href="about.html">O mnie</a></li>
+			<li class="panel"><a class="page" href="contact.html">Kontakt</a></li>
+			<hr id="panel-line">
+		</nav>
+		<section>
+		<img id="foto-bg" src="img/foto-w-tle-kolor-5.png" title="tło">
+		<!--<h1> Skontaktuj się ze mną</h1>//-->
+		<!--Formularz interaktywny//-->
+		<div class="wpcf" id="formwrap"> 
+			<div id="dane">
+				<h2>Sylwia</h2>
+				<p id="tel">Telefon kontaktowy: 572 626 200 </p>
+				
+					<p id="social">Media społecznościowe </p>
+					<a href="https://www.facebook.com/ProjektZielonyOgrod" target="_blank"> <img class="sm" src="img/fb-logo.png" alt="Facebook Logo"></a>
+					<a href="https://www.instagram.com" target="_blank"> <img class="sm" src="img/insta-logo.png" alt="Instagram Logo"></a>
+				
+			</div>
+			<div id="formularz">
+			<h2>Formularz kontaktowy</h2>
+			<form method="post" class="wpcf-form" novalidate="novalidate">
+				<p>
+				<span class="wpcf-name"> 
+					<input type="text" name="Name" value="" size="40" class="nameinput" aria-required="true" aria-invalid="false" placeholder="Imię">
+				</span>
+				<span class="wpcf-email">
+					<input type="email" name="Email" size="40" class="emailinput" aria-required="true" aria-invalid="false" placeholder="E-mail">
+				</span>
+				<span class="wpcf-subject">
+					<select name="Subject" class="wpcf-select" aria-required="true" aria-invalid="false">
+						<option value="general">Pytanie ogólne</option>
+						<option value="project">Pytanie o projekt</option>
+						<option value="advise">Prośba o radę</option>
+					</select>
+				</span>
+				<span class=wpcf-message">
+					<textarea name="Message" cols="40" rows="10" class=wpcf-textarea" aria-invalid="false" placeholder="Treść wiadomości"></textarea>
+				</span>
+				<input type="submit" value="Wyślij" class="wpcf-send-btn">
+				</p>
+			</form>
+			</div>
+		</div>
+		<!-- Koniec formularza//-->
+		</section>
+	</body>
+</html>

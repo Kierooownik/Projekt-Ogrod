@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #326a34;
+}
+
+/*Panel nawigacyjny ~~*/
+header{
+	margin: 0 -8px;
+	background-color: #fff;
+	z-index: 0;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+nav{
+	background-color: rgba(50,106,52,0.05);
+	/*border-bottom-color: #326a34;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;*/
+	padding: 10px 0;
+	margin-top: -16px;
+}
+.panel-logo{
+	width: 6em;
+	height: 6em;
+	padding: 1em;
+	border-radius: 4em;
+}
+#panel-bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 10px auto;
+}
+panel{
+	padding: 0;
+	margin: 0 auto;;
+}
+.panel-logo:hover{
+	background-color: rgba(50,106,52,0.1);
+}
+#active{
+	background-color: rgba(50,106,52,0.75);
+}
+/*~~Panel nawigacyjny*/
+/*Nagłówki strony głównej~~*/
+h1{
+	font-size: 4.5em;
+	padding-top: 1.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+h2{
+	font-size: 2.5em;
+	text-align: center;
+}
+span{
+	font-style: italic;
+}
+/*~~Nagłówki strony głównej*/
+
+/*Zawartość~~*/
+	
+/*Formularz interaktywny~~*/
+form{
+	margin-left: auto;
+	margin-right: auto;
+	/*width: 965px;
+	height: 450px;*/
+	padding: 20px;
+	border-radius: 10px;
+	background-clip: padding-box;
+	overflow: hidden;
+}
+textarea{
+	background: rgba(50,106,52,0.4);
+	width: 75%;
+	height: auto;
+	border: none;
+	border-radius: 10px;
+	background-clip: padding-box;
+	display: block;
+	font-size: 18px;
+	color: #fff;
+	padding: 0px 20px;
+	margin: 20px auto;
+	overflow: hidden;
+	text-align: left;
+}
+select{
+	width: 78.5%;
+	height: 48px;
+	line-height: 1.5;
+	font-size: 1.2em;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	display: block;
+	background: transparent;
+	background-color: rgba(50,106,52,0.4);
+	margin: 20px auto;
+	font-size: 18px;
+	apperance: none;
+}
+.nameinput, .emailinput {
+	width: 75%;
+	height: 48px;
+	border: none;
+	border-radius: 10px;
+	background-color: rgba(50,106,52,0.4);
+	background-clip: padding-box;
+	display: block;
+	font-size: 18px;
+	color: #fff;
+	padding: 0px 20px;
+	margin: 20px auto;
+	text-align: left;
+}
+.send-btn{
+	display: inline-block;
+	font-weight: 400;
+    color: #326a34;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+	width: 78.5%;
+	height: 48px;
+	background-color: rgba(50,106,52,0.4);
+	border: 1px solid transparent;
+	padding: 0.2rem 0.75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: 0.25rem;
+	
+}
+.send-btn:hover{
+	color: #fff;
+	background-color: #326a34;
+	text-decoration: none;
+	transition: 1s;
+}
+
+
+.wpcf{
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+	align-items: center;
+	text-align: center;
+}
+#dane{
+		border-right-style: solid;
+		border-right-color: #326a34;
+		
+}
+#formularz{
+		grid-column: span 2;
+}
+
+#social{
+		margin: 20px;
+		font-weight: 600;
+}
+.sm{
+	padding: 10px;
+	width: 3em;
+	height: 3em;
+}
+/*~~Formularz interaktywny*/
+
+/*~~Zawartość*/
+
+/*Stopka~~*/
+footer{
+	background-color: #734854;
+	color: #fff;
+	margin: auto -8px -16px -8px;
+	
+}
+.stopka{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+.stopka > *{
+	padding: 10px;
+	color: #fff;
+	
+	
+}
+#autor{
+	font-size: 0.6em;
+	color: #fff;
+	text-align: center;
+	padding: 0.3em;
+	
+}
+em{
+	color: #fff;
+}
+strong{
+	color: #fff;
+	font-size: 1.2rem;
+}
+ul{
+	padding: 0 0 10px 0;
+	margin: 0;
+	align-self: center;
+}
+li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}	
+a:hover{
+	font-weight: 700;
+	text-decoration: underline;
+	underline-offset: 0.2rem;
+}
+/*~~Stopka*/
