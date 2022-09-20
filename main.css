@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+*{
+	font-family: Verdana, sans-serif;
+	color: #326a34;
+}
+/*Panel nawigacyjny ~~*/
+header{
+	margin: -8px -8px;
+	background-color: #fff;
+	z-index: 0;
+}
+.nlink{
+	color: #326a34;
+}
+.nlink:hover{
+	text-decoration: underline;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav{
+	background-color: rgba(167, 180, 127, 0.2);
+	padding: 15px 0;
+	margin-top: 0;
+	/*
+	border-bottom-color: #326a34;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;*/
+}
+#panel-bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 10px auto;
+	
+}
+panel{
+	padding: 0;
+	margin: 0 auto;
+	background-color: white;
+	
+}
+#active{
+	background-color: rgba(50,106,52,0.75);
+}
+/*~~Panel nawigacyjny*/
+/*Nagłówki strony głównej~~*/
+h1{
+	font-size: 4em;
+	padding-top: 1.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+
+}
+h2{
+	font-size: 2.5em;
+	text-align: center;
+}
+
+/*~~Nagłówki strony głównej*/
+
+/*Zawartość~~*/
+.containter-main{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(1em, 1fr))
+}
+.container {
+    margin: 50px 50px;
+	display: grid;
+    grid-template-columns: repeat(5, 1fr);
+	grid-gap: 25px;
+	justify-content: center;
+	text-align: center;
+}
+.container > *{
+	background-color: rgba(167, 180, 127, 0.2);
+	border-radius: 2rem;
+}
+h3{
+	font-family: Forte;
+	font-size: 2.5em;
+	
+}
+.main-img{
+	max-width: 90%;
+}
+/*#projekty{
+	grid-column: span 2;
+}*/
+
+
+/*~~Zawartość*/
+
+/*Stopka~~*/
+footer{
+	background-color: #734854;
+	color: #fff;
+	margin: 0px -8px -16px -8px;
+	
+}
+.stopka{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+.stopka > *{
+	padding: 10px;
+	color: #fff;
+	font-size: 0.5em;
+	
+}
+#autor{
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	padding: 0.2rem;
+	
+}
+em{
+	color: #fff;
+}
+strong{
+	color: #fff;
+	font-size: 0.8rem;
+}
+ul{
+	padding: 0 0 10px 0;
+	margin: 0;
+	align-self: center;
+}
+li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}	
+a:hover{
+	/*font-weight: 700;*/
+	text-decoration: underline;
+	underline-offset: 0.2rem;
+}
+/*~~Stopka*/
