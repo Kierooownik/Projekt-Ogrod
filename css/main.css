@@ -1,13 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 *{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: Verdana, sans-serif;
 	color: #326a34;
 }
 /*Panel nawigacyjny ~~*/
 header{
-	margin: 0 -8px;
+	margin: -8px -8px;
 	background-color: #fff;
 	z-index: 0;
+}
+.nlink{
+	color: #326a34;
+}
+.nlink:hover{
+	text-decoration: underline;
 }
 .sticky{
 	position: fixed;
@@ -16,19 +22,13 @@ header{
 }
 
 nav{
-	background-color: rgba(50,106,52,0.05);
-	/*border-bottom-color: #326a34;
+	background-color: rgba(167, 180, 127, 0.2);
+	padding: 15px 0;
+	margin-top: 0;
+	/*
+	border-bottom-color: #326a34;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;*/
-	padding: 10px 0;
-	margin-top: -16px;
-
-}
-.panel-logo{
-	width: 6em;
-	height: 6em;
-	padding: 1em;
-	border-radius: 4em;
 }
 #panel-bar{
 	display: flex;
@@ -38,15 +38,13 @@ nav{
 	list-style-type: none;
 	padding: 0;
 	margin: 10px auto;
+	
 }
 panel{
 	padding: 0;
-	margin: 0 auto;;
-}
-.panel-logo:hover{
-/*	padding: 1em;
-	border-radius: 4em;*/
-	background-color: rgba(50,106,52,0.1);
+	margin: 0 auto;
+	background-color: white;
+	
 }
 #active{
 	background-color: rgba(50,106,52,0.75);
@@ -54,48 +52,48 @@ panel{
 /*~~Panel nawigacyjny*/
 /*Nagłówki strony głównej~~*/
 h1{
-	font-size: 4.5em;
+	font-size: 4em;
 	padding-top: 1.5em;
 	margin-bottom: 0.5em;
 	text-align: center;
+
 }
 h2{
 	font-size: 2.5em;
 	text-align: center;
 }
-span{
-	font-style: italic;
-}
+
 /*~~Nagłówki strony głównej*/
 
 /*Zawartość~~*/
 .containter-main{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(3em, 1fr))
+	grid-template-columns: repeat(auto-fit, minmax(1em, 1fr))
 }
 .container {
-    margin: 100px 100px;
+    margin: 50px 50px;
 	display: grid;
-    grid-template-columns: 1fr 1fr;
-	grid-gap: 100px;
+    grid-template-columns: repeat(5, 1fr);
+	grid-gap: 25px;
 	justify-content: center;
 	text-align: center;
 }
 .container > *{
-	background-color: rgba(50,106,52,0.1);
+	background-color: rgba(167, 180, 127, 0.2);
 	border-radius: 2rem;
 }
 h3{
 	font-family: Forte;
-	font-size: 3em;
+	font-size: 2.5em;
 	
 }
 .main-img{
 	max-width: 90%;
 }
-#projekty{
+/*#projekty{
 	grid-column: span 2;
-}
+}*/
+
 
 /*~~Zawartość*/
 
@@ -115,14 +113,14 @@ footer{
 .stopka > *{
 	padding: 10px;
 	color: #fff;
-	
+	font-size: 0.5em;
 	
 }
 #autor{
-	font-size: 0.6em;
+	font-size: 0.4rem;
 	color: #fff;
 	text-align: center;
-	padding: 0.3em;
+	padding: 0.2rem;
 	
 }
 em{
@@ -130,7 +128,7 @@ em{
 }
 strong{
 	color: #fff;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 }
 ul{
 	padding: 0 0 10px 0;
@@ -148,7 +146,7 @@ a{
 	color: #fff;
 }	
 a:hover{
-	font-weight: 700;
+	/*font-weight: 700;*/
 	text-decoration: underline;
 	underline-offset: 0.2rem;
 }
